@@ -12,8 +12,8 @@ function formLinkedList(arr) {
         return null;
     }
 
-    var head = new ListNode(arr[0]);
-    var current = head;
+    let head = new ListNode(arr[0]);
+    let current = head;
 
     for (let i = 1; i < arr.length; i++) {
         current.next = new ListNode(arr[i]);
